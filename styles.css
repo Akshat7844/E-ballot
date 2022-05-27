@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+@import url(responsive.css);
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto+Serif+SC',sans-serif;
+    background: url(bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    box-sizing: border-box;
+    background-color:#28282B ;
+}
+header
+{
+    position: relative;
+    max-width: 98%; /*1200px;*/
+    margin: 20px auto;
+    padding: 10px;
+}
+.logo
+{
+    float: left;
+    position: relative;
+    left: 4%;
+    top: 20px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-size: 70px;
+    color:whitesmoke;
+    font-weight: 700;
+    text-decoration: none;
+}
+.log
+{
+    float: right;
+    font-family: 'Satisfy', cursive;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    right: 10%;
+    top: 45px;
+    color:whitesmoke;
+}
+nav
+{
+    float:right;
+}
+.clear
+{
+    clear: both;
+}
+nav ul
+{
+    transform: translate(170px,162px);
+    position:relative;
+    right: 10%;
+    padding:0;
+    margin: 0;
+    display: flex;
+}
+nav ul li
+{
+    list-style: none;
+}
+nav ul li a
+{
+    display: block;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Fredoka One', cursive;
+    margin: 10px 100px;
+    padding: 13px 30px;
+    text-decoration: none;
+    background-color: #fa1b53;
+    color:black; 
+    border-radius: 20px;
+    margin-right: 10px;
+    border-radius: 10px 0;
+    
+}
+nav ul li a:hover
+{
+    background: black;
+    color: orange;
+    transition: 1s;
+
+}
+@media (max-width: 1200px)
+{
+    header
+    {
+        margin: 20px;
+    }
+}
+@media (max-width: 768px)
+{
+    .mean-toggle
+    {
+        display: block;
+        width: auto;
+        height: auto;
+        margin: 10px;
+        float: right;
+        cursor: pointer;
+        text-align: center;
+        font-size: 30px;
+        color: #28282B ;
+    }
+    .mean-toggle:before
+    {
+        content: '\f0c9';
+        font-family: fontAwesome;
+        line-height: 40px;
+    }
+    .mean-toggle.active:before
+    {
+        content: '\f00d';
+    }
+    nav
+    {
+        display:none;
+    }
+    nav.active
+    {
+        display:block;
+        width :100%;
+    }
+    nav.active ul
+    {
+        display: block;
+    }
+    nav.active ul li
+    {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+.maintext {
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 80px;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.buttons
+{
+  display:inline-flex;
+  padding: 20px;
+}
+.mainbutton {
+  background-color: #0096FF;
+  padding: 2%;
+  margin-right: 10px;
+  margin-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  width: 50%;
+  border-radius: 40px;
+  font-size: 22px;
+}
+button {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding: 20px 10px;
+  margin: auto;
+  width: 35%;
+  top: 0;
+  font-size: 20px;
+  font-family: "Open Sans", Helvetica;
+  border-radius: 10px;
+  border-bottom: 5px solid rgb(0, 0, 0);
+  border-left: 5px solid rgb(0, 0, 0);
+  background: white;
+  -webkit-transform: translateZ(0);
+     -moz-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+button:hover 
+{
+  top: -10px;
+  box-shadow: 0px 12px 10px rgba(15, 15, 15, 0.2);
+}
+
+button:active {
+  top: 0px;
+  box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.0 );
+  background: white;
+}
+
+
+/*PARTY TABLE*/
+.parties {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+  background-color: white;
+  width: 30%;
+}

@@ -1,0 +1,130 @@
+html
+{
+    height: 800px;
+}
+body
+{
+  margin: 0px;
+  background:url(icons/common.jpg);
+  background-size: 2000px 120%;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+.container
+{
+    font-family: 'Audiowide', cursive;
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    transform: translate(800px,110px);
+    text-decoration: dotted;
+    width:50%;
+}
+.omg
+{
+    height: 800px;
+}
+form {
+	width: 400px;
+	box-shadow: 12px 12px 9px black, -3px -5px 7px #ffffff52;
+	padding: 30px;
+	background: rgba(0, 0, 0, 0.329);
+	border-radius: 15px;
+    transform: translate(735px,-640px);
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+    color: wheat;
+    font-size: 2.1pc;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: wheat;
+	font-size: 18px;
+	padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button {
+	float: right;
+	background: black;
+	padding: 10px 15px;
+    cursor: pointer;
+	color: #fff;
+    font-size: 1.25pc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+    height: 40px;
+    width: 90px;
+    position: relative;
+}
+button:hover
+{
+	color: lawngreen;
+    transition: all 1s ease;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.ca {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: red;
+    font-size: 1.15pc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
+.found ul
+{
+    display: flex;
+    list-style: none;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    white-space: nowrap;
+}
+.found ul li p
+{
+    color: grey;
+    transition: 0.6s;
+}
+.found ul li p:hover
+{
+    transform: translate(0,-5px);
+    color: whitesmoke;
+}
